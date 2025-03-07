@@ -1,28 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './NavBar.css';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-
   const navigate = useNavigate();
+  const location = useLocation(); // Get the current route
 
-  const goToProductsPage =()=>{
-    navigate('/products')
-  }
+  // Close menu whenever the route changes
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [location.pathname]);
 
-  const goToHome=()=>{
-    navigate('/')
-  }
-
-  const goToAbout=()=>{
-    navigate('/about')
-  }
-
-  const goToContact=()=>{
-    navigate('/contact')
-  }
-
+  const handleNavigation = (path) => {
+    navigate(path);
+  };
 
   return (
     <nav className="navbar">
@@ -30,16 +22,19 @@ const NavBar = () => {
         <div className="logo">
           <h1>Monali<span>Traders</span></h1>
         </div>
-        <div className={`menu-toggle ${menuOpen ? 'active' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
+        <div 
+          className={`menu-toggle ${menuOpen ? 'active' : ''}`} 
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
           <span></span>
           <span></span>
           <span></span>
         </div>
         <ul className={`nav-menu ${menuOpen ? 'active' : ''}`}>
-          <li><a className='nav-link'  onClick={goToHome}>Home</a></li>
-          <li><a className='nav-link' onClick={goToProductsPage}>Products</a></li>
-          <li><a className='nav-link' onClick={goToAbout}>About</a></li>
-          <li><a className='nav-link'onClick={goToContact} >Contact</a></li>
+          <li><a className='nav-link' onClick={() => handleNavigation('/')}>Home</a></li>
+          <li><a className='nav-link' onClick={() => handleNavigation('/products')}>Products</a></li>
+          <li><a className='nav-link' onClick={() => handleNavigation('/about')}>About</a></li>
+          <li><a className='nav-link' onClick={() => handleNavigation('/contact')}>Contact</a></li>
         </ul>
       </div>
     </nav>

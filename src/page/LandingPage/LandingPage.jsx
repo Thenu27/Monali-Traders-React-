@@ -12,7 +12,6 @@ import FAQ from '../../components/FAQ/FAQ';
 const LandingPage=()=> {
   return (
     <div className="app">
-      <Navbar />
       <Hero />
       <Features />
       <FAQ/>
