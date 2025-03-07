@@ -443,7 +443,7 @@ body {
   }
 }
 
-@media (min-width:420px) {
+@media (max-width:420px) {
   .products-grid{
     margin-top: -130px;
     margin-bottom: 20px;
