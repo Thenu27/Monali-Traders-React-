@@ -14,6 +14,7 @@ const NavBar = () => {
 
   const handleNavigation = (path) => {
     navigate(path);
+    window.scrollTo(0,0);
   };
 
   return (
