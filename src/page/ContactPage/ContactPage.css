@@ -1,0 +1,226 @@
+/* ContactPage.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f8f9fa;
+    color: #1d3557;
+  }
+  
+  .contactPage-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+  
+  .contactPage-title {
+    color: #e63946;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    border-bottom: 3px solid #e63946;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+  }
+  
+  .contactPage-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 7px 35px rgba(0, 0, 0, 0.25);
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .contactPage-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(229, 62, 62, 0.15);
+  }
+
+  .contactPage-card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: var(--primary-red);
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+  }
+
+  .contact-cardPage:hover:before {
+    transform: translateY(0);
+  }
+
+  .contactPage-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .contactPage-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .location{
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .contactPage-icon {
+    color: #e63946;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  
+  .contactPage-details h2 {
+    color: #e63946;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contactPage-details p {
+    color: #1d3557;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .contactPage-details a {
+    color: #457b9d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contactPage-details a:hover {
+    color: #e63946;
+    text-decoration: underline;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2.5rem;
+    justify-content: center;
+  }
+  
+  .social-icon {
+    background-color: #ffffff;
+    color: #e63946;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e63946;
+    transition: all 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    background-color: #e63946;
+    color: #ffffff;
+  }
+  
+  .map-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 7px 35px rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+    flex-grow: 1;
+  }
+  
+  .map-placeholder {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #457b9d;
+    font-size: 1.1rem;
+    gap: 1rem;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (min-width: 768px) {
+    .contactPage-container {
+      flex-direction: row;
+      gap: 2rem;
+      align-items: stretch;
+    }
+    
+    .contactPage-card {
+      flex: 1;
+      margin-bottom: 0;
+    }
+    
+    .map-container {
+      flex: 1;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .contactPage-title {
+      font-size: 2rem;
+    }
+    
+    .contactPage-card, .map-container {
+      padding: 1.5rem;
+    }
+    
+    .map-container {
+      min-height: 300px;
+    }
+    
+    .contactPage-icon {
+      width: 40px;
+      height: 40px;
+    }
+    
+    .contactPage-details h2 {
+      font-size: 1.1rem;
+    }
+    
+    .contactPage-details p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contactPage-container {
+      padding: 1rem;
+    }
+    
+    .contactPage-item {
+      gap: 1rem;
+    }
+    
+    .social-links {
+      gap: 0.7rem;
+    }
+    
+    .social-icon {
+      width: 40px;
+      height: 40px;
+    }
+    .location{
+      height: 300px;
+    }
+  }

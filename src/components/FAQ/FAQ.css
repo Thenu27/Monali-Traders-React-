@@ -1,0 +1,108 @@
+/* AnimatedFAQ.css */
+
+.faq-container {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 7px 35px rgba(0, 0, 0, 0.25);
+    margin-top: 50px;
+  }
+  
+  .faq-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #e53e3e;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  
+  .faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .faq-item {
+    border: 1px solid #fed7d7;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .faq-question {
+    width: 100%;
+    padding: 16px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFE5E5;
+    color: #c53030;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .faq-question:hover {
+    background-color: #fff5f5;
+    border: none;
+
+  }
+  
+  .faq-question.active {
+    background-color: #e53e3e;
+    color: white;
+  }
+  
+  .question-text {
+    font-weight: 500;
+  }
+  
+  .faq-icon {
+    font-size: 14px;
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-answer-container {
+    background-color: white;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease;
+  }
+  
+  .faq-answer-container.open {
+    max-height: 200px;
+    border-top: 1px solid #fed7d7;
+  }
+  
+  .faq-answer {
+    padding: 16px;
+    color: #4a5568;
+    line-height: 1.5;
+  }
+  
+  /* Add some additional animation for a more polished look */
+  .faq-question:active {
+    transform: scale(0.99);
+  }
+  
+  /* Add responsive design for smaller screens */
+  @media (max-width: 640px) {
+    .faq-container {
+      padding: 16px;
+    }
+    
+    .faq-title {
+      font-size: 24px;
+    }
+    
+    .faq-question {
+      font-size: 16px;
+      padding: 12px;
+    }
+  }
