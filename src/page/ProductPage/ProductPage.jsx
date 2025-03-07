@@ -8,34 +8,34 @@ const ProductPage = () => {
   const products = [
     { id: 1, name: "Fiber Glass Safety Ladders", category: "Safety Equipment",  
       description: "Our Fiberglass Safety Ladders are lightweight, durable, and electrically insulated, making them ideal for electrical and industrial applications. Designed for stability and safety, they offer resistance to corrosion, weather, and electrical conductivity, ensuring reliable performance in various working conditions.", 
-      image: "/public/assets/Safety Ladders-min.png" },
+      image: "/assets/Safety Ladders-min.png" },
     { id: 2, name: "Premium Safety Belts", category: "Safety Equipment",  
       description: "Our Premium Safety Belts are designed for maximum comfort and protection, providing secure support for workers in high-risk environments. Made from durable, high-quality materials, they ensure reliability, stability, and enhanced safety during operations", 
-      image: "/public/assets/SafetyBelts.jpg" },
+      image: "/assets/SafetyBelts.jpg" },
     { id: 3, name: "HRC Fuse Cartridge", category: "Fuses and Protection Devices", 
       description: "Our HRC Fuse Cartridges provide reliable circuit protection, ensuring safety in high-voltage electrical systems. Designed for durability and efficiency, they offer excellent short-circuit protection and high breaking capacity.", 
-      image: "/public/assets/Fuse.jpg" },
+      image: "/assets/Fuse.jpg" },
     { id: 4, name: "Aerial Bundle Cable Accessories", category: "Cable and Conductor Accessories", 
       description: "Our Aerial Bundle Cable Accessories are designed for secure and efficient power distribution. We offer a range of high-quality accessories, including Dead End Assemblies, Large Angle Assemblies, Piercing Connectors (LV), and more, ensuring durability and reliable performance.", 
-      image: "/public/assets/ArielBundle-min.jpg" },
+      image: "/assets/ArielBundle-min.jpg" },
     { id: 5, name: "Compression Clamps Aluminum H Type", category: "Cable and Conductor Accessories", 
       description: "Our Compression Clamps (Aluminum H-Type) are designed for secure and efficient cable connections. Made from high-quality aluminum, they ensure strong conductivity, corrosion resistance, and reliable performance in electrical installations.", 
-      image: "/public/assets/Clamps.jpg" },
+      image: "/assets/Clamps.jpg" },
     { id: 6, name: "Standard Copper Lugs", category: "Cable and Conductor Accessories", 
       description: "Our Standard Copper Lugs provide secure and efficient cable terminations. Made from high-conductivity copper, they ensure excellent electrical performance, durability, and corrosion resistance for various industrial and electrical applications.", 
-      image: "/public/assets/Lugs.jpg" },
+      image: "/assets/Lugs.jpg" },
     { id: 7, name: "Standard Bi-Metallic Lugs", category: "Cable and Conductor Accessories", 
       description: "Genuine leather sofa with modern design and durable construction.", 
-      image: "/public/assets/BiLugs.png" },
+      image: "/assets/BiLugs.png" },
     { id: 8, name: "LED Street Lamps", category: "Lighting Solutions", price: 249.99, 
       description: "Our LED Street Lamps offer energy-efficient, long-lasting, and high-performance lighting solutions. Designed for durability and optimal illumination, they provide superior brightness, low power consumption, and weather resistance for streets, highways, and public spaces.", 
-      image: "/public/assets/LED.png" },
+      image: "/assets/LED.png" },
     { id: 9, name: "Stringing Tools for Overhead Cables", category: "Stringing and Welding Accessories", price: 129.99, 
       description: "Our Stringing Tools for Overhead Cables are designed for efficient and safe installation of power lines. We offer high-quality tools, including Pulleys, Draw Vices, Clamps, Swivel Joints, and More, ensuring durability, precision, and ease of use in overhead cable stringing operations.", 
-      image: "/public/assets/Overhead-Cables.png" },
+      image: "/assets/Overhead-Cables.png" },
       { id: 10, name: "Weld Metal and Weld Metal Accessories", category: "Stringing and Welding Accessories", price: 129.99, 
         description: "Our Weld Metal and Weld Metal Accessories ensure strong, reliable, and corrosion-resistant electrical connections. Designed for exothermic welding applications, we provide high-quality welding powder, molds, clamps, and other essential accessories for secure and long-lasting bonding.", 
-        image: "/public/assets/Weild-min.png" }
+        image: "/assets/Weild-min.png" }
 
   ];
 
@@ -165,8 +165,7 @@ const ProductPage = () => {
                   <h3>Interested in this product?</h3>
                   <p>Contact our sales team:</p>
                   <p><strong>Email:</strong> productivityp@gmail.com</p>
-                  <p><strong>Phone:</strong>+94 71 487 3274</p>
-                  {/* <p><strong>Hours:</strong> Monday-Friday, 9AM-5PM EST</p> */}
+                  <p><strong>Phone:</strong>+94 71 487 3274 </p>               {/* <p><strong>Hours:</strong> Monday-Friday, 9AM-5PM EST</p> */}
                 </div>
               </div>
             </div>
