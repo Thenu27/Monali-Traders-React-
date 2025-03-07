@@ -1,8 +1,7 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Monali-Traders-React/'  // Change this to your GitHub repo name
+  base: '/Monali-Traders-React-/'  // Match this with your repo name exactly!
 });
