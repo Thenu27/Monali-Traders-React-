@@ -14,7 +14,7 @@ const ProductPage = () => {
       image: `${import.meta.env.BASE_URL}assets/SafetyBelts.jpg` },
     { id: 3, name: "HRC Fuse Cartridge", category: "Fuses and Protection Devices", 
       description: "Our HRC Fuse Cartridges provide reliable circuit protection, ensuring safety in high-voltage electrical systems. Designed for durability and efficiency, they offer excellent short-circuit protection and high breaking capacity.", 
-      image: `${import.meta.env.BASE_URL}/assets/FuseNew.png` },
+      image: `${import.meta.env.BASE_URL}assets/FuseNew.png` },
     { id: 4, name: "Aerial Bundle Cable Accessories", category: "Cable and Conductor Accessories", 
       description: "Our Aerial Bundle Cable Accessories are designed for secure and efficient power distribution. We offer a range of high-quality accessories, including Dead End Assemblies, Large Angle Assemblies, Piercing Connectors (LV), and more, ensuring durability and reliable performance.", 
       image: `${import.meta.env.BASE_URL}assets/ArielBundle-min.jpg` },
