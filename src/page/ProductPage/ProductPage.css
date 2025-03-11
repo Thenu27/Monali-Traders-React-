@@ -356,6 +356,7 @@ body {
   flex-direction: column;
 }
 
+
 @media (min-width: 768px) {
   .modal-content {
     flex-direction: row;
