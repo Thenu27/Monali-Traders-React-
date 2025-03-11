@@ -2,6 +2,8 @@
     background-color: #222;
     padding: 60px 0 0;
     color: #fff;
+    width: 100vw;
+    overflow-x: hidden;
   }
   
   .footer-container {

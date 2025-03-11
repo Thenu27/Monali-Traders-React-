@@ -9,6 +9,8 @@
     text-align: center;
     color: white;
     padding-top: 80px;
+    width: 100vw;
+    overflow-x: hiddens;
   }
   
   .hero-content {
