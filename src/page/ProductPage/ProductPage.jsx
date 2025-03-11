@@ -14,7 +14,7 @@ const ProductPage = () => {
       image: `${import.meta.env.BASE_URL}assets/SafetyBelts.jpg` },
     { id: 3, name: "HRC Fuse Cartridge", category: "Fuses and Protection Devices", 
       description: "Our HRC Fuse Cartridges provide reliable circuit protection, ensuring safety in high-voltage electrical systems. Designed for durability and efficiency, they offer excellent short-circuit protection and high breaking capacity.", 
-      image: `${import.meta.env.BASE_URL}assets/Fuse.jpg` },
+      image: `${import.meta.env.BASE_URL}/assets/FuseNew.png` },
     { id: 4, name: "Aerial Bundle Cable Accessories", category: "Cable and Conductor Accessories", 
       description: "Our Aerial Bundle Cable Accessories are designed for secure and efficient power distribution. We offer a range of high-quality accessories, including Dead End Assemblies, Large Angle Assemblies, Piercing Connectors (LV), and more, ensuring durability and reliable performance.", 
       image: `${import.meta.env.BASE_URL}assets/ArielBundle-min.jpg` },
@@ -35,7 +35,7 @@ const ProductPage = () => {
       image: `${import.meta.env.BASE_URL}assets/Overhead-Cables.png` },
       { id: 10, name: "Weld Metal and Weld Metal Accessories", category: "Stringing and Welding Accessories", price: 129.99, 
         description: "Our Weld Metal and Weld Metal Accessories ensure strong, reliable, and corrosion-resistant electrical connections. Designed for exothermic welding applications, we provide high-quality welding powder, molds, clamps, and other essential accessories for secure and long-lasting bonding.", 
-        image: `${import.meta.env.BASE_URL}assets/Weild-min.png`}
+        image: `${import.meta.env.BASE_URL}assets/WieldImagesNew.jpg`}
 
   ];
 
@@ -164,7 +164,7 @@ const ProductPage = () => {
                 <div className="contact-info">
                   <h3>Interested in this product?</h3>
                   <p>Contact our sales team:</p>
-                  <p><strong>Email:</strong> productivityp@gmail.com</p>
+                  <p><strong>Email:</strong>sales@monalitraders.com</p>
                   <p><strong>Phone:</strong>+94 71 487 3274 </p>               {/* <p><strong>Hours:</strong> Monday-Friday, 9AM-5PM EST</p> */}
                 </div>
               </div>

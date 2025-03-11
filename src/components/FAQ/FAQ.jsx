@@ -14,8 +14,8 @@ const FAQ = () => {
       answer: "We offer high-quality Ariel Bundle Cable Accessories from Serbia and China, including ABC Accessories (Dead End Assembly, Large Angle Assembly, Piercing Connectors LV), Safety Items (FRP Ladders), and Stringing Tools (Pulleys, Draw Vice & Clamps, Swivel Joints, etc.)."
     },
     {
-      question: "What are the services you provide?",
-      answer: "We specialize in trading high-quality electrical products, sourcing primarily from France, China, Taiwan, and various European countries. Our offerings include Ariel Bundle Cable Accessories, Safety Equipment, Cable Stringing Tools, and a variety of Cable Connectors such as Sleeves, Compression Clamps (H-Type), AL/CU Lugs, and more."
+      question: "Where do you import products from?",
+      answer: "We specialize in trading high-quality electrical products, sourcing primarily from Europe, China,Taiwan,Thailand and Brazil. Our offerings include Ariel Bundle Cable Accessories, Safety Equipment, Cable Stringing Tools, and a variety of Cable Connectors such as Sleeves, Compression Clamps (H-Type), AL/CU Lugs, and more."
     },
     {
       question: "Where is your company located",

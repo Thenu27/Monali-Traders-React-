@@ -23,7 +23,7 @@ const Contact = () => {
         <div className="contact-card">
           <div className="contact-icon">📞</div>
           <h3 className="card-title">Call Us</h3>
-          <p className="card-text">Main: 071 487 3274</p>
+          <p className="card-text">Main: +94 71 487 3274</p>
           {/* <p className="card-text">Support: (212) 555-5678</p>
           <p className="card-text">Toll-free: 1-800-555-9876</p> */}
         </div>
@@ -32,7 +32,7 @@ const Contact = () => {
           <div className="contact-icon">✉️</div>
           <h3 className="card-title">Email Us</h3>
           <p className="card-text">productivityp@gmail.com</p>
-          <p className="card-text">upulliyana@yahoo.com</p>
+          <p className="card-text">sales@monalitraders.com</p>
           {/* <p className="card-text">sales@company.com</p> */}
         </div>
       </div>

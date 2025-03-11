@@ -17,6 +17,8 @@ const ContactPage = () => {
             <div className="contactPage-details">
               <h2>Email</h2>
               <p><a href="mailto:productivityp@gmail.com">productivityp@gmail.com</a></p>
+              <p><a href="mailto:sales@monalitraders.com">sales@monalitraders.com</a></p>
+
             </div>
           </div>
           
@@ -28,7 +30,7 @@ const ContactPage = () => {
             </div>
             <div className="contactPage-details">
               <h2>Phone</h2>
-              <p><a href="tel:+15551234567">+94 71 487 3274</a></p>
+              <p><a>+94 71 487 3274</a></p>
             </div>
           </div>
           
